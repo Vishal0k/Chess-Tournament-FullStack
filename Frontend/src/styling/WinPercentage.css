@@ -1,0 +1,28 @@
+.player-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+}
+
+.card {
+    background-color: #edf1f3;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 1em;
+}

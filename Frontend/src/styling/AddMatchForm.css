@@ -1,0 +1,59 @@
+.add-match-form {
+    margin: 5% auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 15px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    border: 2px solid #3498db;
+    color: #333;
+}
